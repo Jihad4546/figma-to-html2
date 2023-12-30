@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+:root {
+    --primary-color: #27AE60;
+    --seconday-color: #4F4F4F;
+    --main-color: #FFF;
+    --main-seconday: #535353;
+
+}
+
+html {
+    background-color: #171717;
+    color: wheat
+}
+
+@font-face {
+    font-family: Dm sans;
+    src: url(../font/DMSans-Bold.ttf);
+    src: url(../font/DMSans-Medium.ttf);
+    src: url(../font/DMSans-Regular.ttf)
+}
+
+/* common css  */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav h2 {
+    color: var(--main-color);
+    font-family: Dmsans;
+    font-size: 36px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-list ul li a {
+    color: var(--main-color);
+    font-size: 18px;
+}
+
+.bio {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bio h2 {
+    color: var(--main-color);
+    font-size: 48px;
+}
+
+.bio img {
+    width: 450px;
+    height: 450px;
+}
+
+.bio p {
+    color: var(--main-color);
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.bio .CV {
+    background: var(--primary-color);
+    padding: 8px 15px;
+    color: var(--main-color);
+}
+
+.learn {
+    border: 1px solid white;
+    padding: 8px 15px;
+    color: var(--main-color);
+}
+
+.about .heading h2 {
+    text-align: center;
+    color: var(--main-color);
+    font-size: 48px;
+}
+
+.about-paragraph p {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 18px;
+}
+
+.crical {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.box {
+    text-align: center;
+}
+
+.box h2 {
+    color: var(--main-color);
+    font-size: 18px;
+}
+
+.box p {
+    font-size: 15px;
+    color: var(--main-color)
+}
+
+.boxes-heading h3 {
+    text-align: center;
+    color: var(--main-color);
+    font-size: 48px;
+    margin: 2rem 0;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.boxes .box {
+    width: 26.5%;
+    box-shadow: rgba(65, 59, 59, 0.24) 0px 3px 8px;
+    height: 30vh;
+    background: #212121;
+}
+.boxes .box:hover{
+    border-bottom: 3px solid var(--primary-color);
+}
+.boxes .box h2 {
+    color: #535353;
+    font-size: 36px;
+    text-align: left;
+
+}
+
+.boxes .box img {
+    text-align: left;
+}
+
+.skills {
+    text-align: center;
+    font-size: 48px;
+    color: var(--main-color);
+    margin: 2rem 0;
+}
+
+.skill {
+    background: #212121;
+}
+
+.skill .skill-items {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 30vh;
+    align-items: center;
+}
+
+.skill .skill-items h2 {
+    color: var(--seconday-color);
+    font-size: 72px;
+}
+
+.skill .skill-items p {
+    color: var(--primary-color);
+    font-size: 24px;
+
+}
+
+.contact-heading {
+    margin-top: 4rem;
+}
+
+.contact-heading h2 {
+    text-align: center;
+    color: var(--main-color);
+    font-size: 48px;
+}
+
+.form {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form form input {
+    background: #171717;
+    width: 35%;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    margin-top: 1rem;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+.massage{
+    border:1px solid gray;
+    width: 70%;
+    height: 20vh;
+    background: #171717;
+    margin-bottom: 2rem;
+}
+.form a{
+    background:var(--primary-color);
+    color:var(--main-color);
+    padding:8px 15px;
+}
+.footer{
+    text-align: center;
+    font-size:14px ;
+    color: var(--seconday-color);
+    margin: 3rem 0;
+}
